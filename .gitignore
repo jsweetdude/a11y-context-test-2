@@ -1,21 +1,24 @@
-cat > .gitignore << 'EOF'
-# dependencies
-**/node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# build output
-**/dist
-**/.next
-**/out
-**/build
+node_modules
+dist
+dist-ssr
+*.local
 
-# logs
-**/*.log
-
-# env files
-**/.env
-**/.env.*.local
-
-# OS / editor
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-.vscode
-EOF
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
