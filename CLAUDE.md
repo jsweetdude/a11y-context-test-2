@@ -11,3 +11,5 @@ This repository is used to test MCP commands and code output.
 ## Important Notes
 
 Load router rules from `.claude/rules/a11y-router.md`.
+
+**Note:** Inclusion of this file is optional. Intended for human-readable context.
